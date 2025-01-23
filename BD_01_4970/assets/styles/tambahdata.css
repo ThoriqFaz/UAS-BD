@@ -1,0 +1,253 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.top-header img {
+  height: 50px;
+  padding-right: 20px;
+}
+.top-header {
+  background-color: #bb86fc;
+  padding: 15px;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+.kiri {
+  padding: 0;
+  border-right: 1px solid;
+  border-color: #bb86fc;
+}
+.kanan {
+  background-color: hsl(286, 32%, 92%);
+  padding: 0;
+}
+.profile {
+  display: block;
+  padding: 5px;
+  padding-top: 4px;
+}
+.profile ul {
+  margin: auto;
+  list-style: none;
+  margin-right: 30px;
+  text-align: left;
+}
+.pp {
+  height: 70px;
+  width: 70px;
+}
+.menu {
+  margin-left: 10px;
+  width: 250px;
+  background-color: e=white;
+  color: #bb86fc;
+  padding: 20px;
+}
+.menu-item {
+  margin: 10px 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+}
+.menu-item:hover {
+  background-color: #d4baf5;
+}
+.menu-icon {
+  margin-right: 10px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 12px 16px;
+  border-radius: 5px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+hr {
+  padding: 0;
+  color: #bb86fc;
+  opacity: 100%;
+  margin: 0;
+}
+.logout {
+  background-color: #ff0000;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 12px;
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.logout:hover {
+  color: #ff0000;
+  background-color: hsl(0, 100%, 73%);
+}
+.jdl {
+  margin-left: 10px;
+  background-color: white;
+}
+.sem {
+  text-align: left;
+  color: gray;
+  margin-left: 10px;
+}
+.bi {
+  color: purple;
+}
+.header-kanan {
+  text-align: left;
+  padding: auto;
+}
+.pts {
+  margin-top: 5px;
+}
+.container {
+  margin-top: 30px;
+  max-width: 700px;
+  width: 100%;
+  background-color: #bb86fc;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+
+.kanan .container {
+  max-width: 1200px;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+  border-radius: 5px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row .column {
+  width: 48%;
+}
+
+.row .column label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.row .column input,
+.row .column select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #bb86fc;
+}
+.button-container {
+  justify-content: left;
+}
+.form-control {
+  cursor: default;
+}
+.form-control2 {
+  cursor: not-allowed;
+}
+.form-select {
+  cursor: not-allowed;
+}
+.download {
+  background-color: rgb(9, 161, 255);
+  color: white;
+}
+.download:hover {
+  background-color: rgb(152, 216, 248);
+}
+.upload {
+  background-color: #28a745;
+  color: white;
+}
+.upload:hover {
+  background-color: #93eba8;
+}
+.save {
+  background-color: #bb86fc;
+  color: white;
+}
+
+.save:hover {
+  background-color: #cfb3f0;
+}
+
+.cancel {
+  background-color: #808080;
+  color: white;
+}
+
+.cancel:hover {
+  background-color: #696969;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.action-btn {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.action-btn.delete {
+  background-color: #dc3545;
+}
+
+.action-btn:hover {
+  opacity: 0.8;
+}
+
+/* Membuat container khusus "kanan" karena sebelumnya container width nya terlalu kecil */
+/* Pada .content form .user-details, overflow scroll nya diilangin agar tidak muncul scroll  */
+/* Menambah class row pada div yang ada class user details */
+/* Menambah class col-6 pada setiap div yang ada class input box */

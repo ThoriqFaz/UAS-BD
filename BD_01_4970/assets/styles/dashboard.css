@@ -1,0 +1,219 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.top-header img {
+  height: 50px;
+  padding-right: 20px;
+}
+.top-header {
+  background-color: #bb86fc;
+  padding: 15px;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+.kiri {
+  padding: 0;
+  border-right: 1px solid;
+  border-color: #bb86fc;
+}
+.kanan {
+  background-color: hsl(286, 32%, 92%);
+  padding: 0;
+}
+.profile {
+  display: block;
+  padding: 5px;
+  padding-top: 4px;
+}
+.pp {
+  height: 70px;
+  width: 70px;
+}
+img {
+  margin: 0;
+}
+.imgck {
+  width: 30px;
+}
+.profile ul {
+  margin: auto;
+  list-style: none;
+  margin-right: 30px;
+  text-align: left;
+}
+/* .header-kanan {
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+} */
+.menu {
+  margin-left: 10px;
+  width: 300px;
+  background-color: e=white;
+  color: #bb86fc;
+  padding: 20px;
+}
+.menu-item {
+  margin: 10px 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+}
+.menu-item:hover {
+  background-color: #d4baf5;
+}
+.menu-icon {
+  margin-right: 10px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 12px 16px;
+  border-radius: 5px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.list1:hover {
+  background-color: hsl(286, 32%, 92%);
+}
+.row {
+  height: 100vh;
+}
+hr {
+  padding: 0;
+  color: #bb86fc;
+  opacity: 100%;
+  margin: 0;
+}
+.header-kanan {
+  text-align: center;
+  padding: auto;
+}
+.header-kanan h2 {
+  padding: 12px;
+}
+.menud {
+  display: flex;
+  padding: 30px;
+  column-gap: 2%;
+  text-align: center;
+  background-color: hsl(286, 32%, 92%);
+  justify-content: center;
+  border-radius: 15px;
+}
+.cardqr {
+  width: 40%;
+  align-content: center;
+  margin-left: 180px;
+  border-radius: 15px;
+}
+.imgqr {
+  align-content: center;
+  width: 250px;
+}
+.imgck {
+  width: 150px;
+  margin-top: 40px;
+}
+.tif {
+  margin-top: 40px;
+}
+.cardaktif {
+  width: 60%;
+}
+.cardmatkul {
+  width: 70%;
+  border-radius: 15px;
+  margin-right: 172px;
+}
+.qrc {
+  background-color: #bb86fc;
+  font-weight: bolder;
+  color: white;
+  font-size: larger;
+  padding: 5px;
+}
+.menud img {
+  justify-content: center;
+  padding: 0;
+  padding: 10px;
+}
+.mtkulcard {
+  padding: 0px 210px;
+}
+.jadwal {
+  display: flex;
+}
+.iconnih {
+  font-size: 50px;
+  color: #bb86fc;
+  padding-left: 20px;
+}
+.jadwalajar {
+  width: 150px;
+}
+.jadwalajar p {
+  text-align: left;
+  line-height: 15px;
+  margin-top: 17px;
+  padding-left: 10px;
+}
+.jadwalpengajaran p {
+  margin-bottom: 0px;
+  padding: 5px;
+  margin-top: 15px;
+  background-color: #bb86fc;
+  margin-right: 960px;
+  margin-left: 2px;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+}
+.jamajar {
+  margin-left: 820px;
+}
+.jamajar p {
+  text-align: left;
+  line-height: 15px;
+  margin-top: 17px;
+  padding-left: 10px;
+}
+.mtkl {
+  text-align: left;
+}
+.pts {
+  margin-top: 10px;
+}
+.jdl {
+  text-align: left;
+}
+.sem {
+  text-align: left;
+  margin-left: 10px;
+  color: gray;
+}
+.logout {
+  background-color: #ff0000;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 12px;
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.logout:hover {
+  background-color: hsl(0, 100%, 73%);
+  color: #ff0000;
+}
